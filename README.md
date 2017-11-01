@@ -48,11 +48,15 @@ Some useful tips to help you get started:
 
 3. Install dependencies with npm
 
-4. ```npm install```
+4. ```
+   npm install
+   ```
 
 5. Run grunt (Learn more about <a href="https://gruntjs.com/">Grunt</a>)
 
-6. ```grunt```
+6. ```
+   grunt
+   ```
 
 7. To inspect the site on your phone, you can run a local server
 
