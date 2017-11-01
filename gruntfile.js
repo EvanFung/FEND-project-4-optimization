@@ -119,6 +119,11 @@ module.exports = function(grunt) {
                     src: ['**.{gif,jpg,png}'],
                     cwd: 'dist/views/images/',
                     dest: 'dist/views/images/'
+                },{
+                    expand:true,
+                    src: ['**.{gif,jpg,png}'],
+                    cwd: 'dist/img/',
+                    dest: 'dist/img/'
                 }]
             }
         }
