@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                options: {
                    force: true
                },
-               src: ['Gruntfile.js', 'test/js/*.js', 'test/views/js/*.js']
+               src: ['Gruntfile.js', 'dev/js/*.js', 'dev/views/js/*.js']
            }
         },
         // lint css (validate and detect errors)
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 options: {
                     import: false
                 },
-                src: ['test/css/*.css', 'test/views/css/*css']
+                src: ['dev/css/*.css', 'dev/views/css/*css']
             }
         },
         // lint html (validate and detect errors)
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
                 options: {
                     force: true
                 },
-                src: ['test/*.html', 'test/views/*.html']
+                src: ['dev/*.html', 'dev/views/*.html']
             }
         },
 
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [
-                    {expand: true, cwd: 'test/', src: ['**'], dest: 'dist/'}
+                    {expand: true, cwd: 'dev/', src: ['**'], dest: 'dist/'}
                 ],
             },
         },
