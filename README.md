@@ -48,13 +48,15 @@ Some useful tips to help you get started:
 
 3. Install dependencies with npm
 
-4. ```
+4. 
+   ```
    npm install
    ```
 
 5. Run grunt (Learn more about <a href="https://gruntjs.com/">Grunt</a>)
 
-6. ```
+6. 
+   ```
    grunt
    ```
 
