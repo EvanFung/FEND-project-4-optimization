@@ -2,7 +2,7 @@
 
 ### About
 
-Third project from the Front-End Web Developer Nanodegree in [Udacity](https://www.udacity.com/):
+Fourth project from the Front-End Web Developer Nanodegree in [Udacity](https://www.udacity.com/):
 
 optimized index.html to achieve a score of 90 in PageSpeed, and optimized main.js to achieve 60 fps in pizza.html.
 
